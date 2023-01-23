@@ -28,7 +28,7 @@ export function ParallaxText({ children, baseVelocity = 100 }) {
 	 * have to replace for wrapping that works for you or dynamically
 	 * calculate
 	 */
-	const x = useTransform(baseX, (v) => `${wrap(100, -100, v)}%`);
+	const x = useTransform(baseX, (v) => `${wrap(-100, 100, v)}%`);
 
 	const directionFactor = useRef(1);
 	useAnimationFrame((t, delta) => {
