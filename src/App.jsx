@@ -5,6 +5,7 @@ import { Projects } from './components/Projects/index';
 import { Contact } from './components/Contact/index';
 import { Nav } from './components/Nav';
 import './App.css';
+import { Toaster } from 'react-hot-toast';
 function App() {
 	return (
 		<div>
@@ -13,6 +14,7 @@ function App() {
 			<Projects />
 			<Contact />
 			<Nav />
+			<Toaster />
 		</div>
 	);
 }

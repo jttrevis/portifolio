@@ -39,13 +39,12 @@ export const About = () => {
 					to use.
 				</p>
 				<p>
-					I have a portfolio of websites I have built, including [examples of
-					your work], that showcases my skills and abilities. I am always
-					looking for new opportunities to learn and grow as a developer. I am
-					available for freelance projects and am open to new job opportunities
-					as a Junior web developer. If you are in need of a web developer or
-					have any questions about my work, please don't hesitate to contact me.
-					Thank you for visiting my website!
+					I have a portfolio of websites I have built, that showcases my skills.
+					I am always looking for new opportunities to learn and grow as a
+					developer. I am available for freelance projects and am open to new
+					job opportunities as a Junior web developer. If you are in need of a
+					web developer or have any questions about my work, please don't
+					hesitate to contact me. Thank you for visiting my website!
 				</p>
 			</div>
 			<div>
