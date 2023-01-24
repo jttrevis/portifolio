@@ -24,6 +24,7 @@
 
 body { 
   color: white;
+  background: #000;
 }
 
 body, input, textarea, select, button {

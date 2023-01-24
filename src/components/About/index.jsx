@@ -9,6 +9,7 @@ export const About = () => {
 					src='images/eu.png'
 					alt=''
 				/>
+
 				<p>
 					Hello, my name is Junior Cesar Trevisol and I am a junior web
 					developer. I specialize in creating responsive websites using
@@ -34,9 +35,13 @@ export const About = () => {
 					Thank you for visiting my website!
 				</p>
 			</div>
-			<ParallaxText baseVelocity={-12}>html css styled-component</ParallaxText>
-			<ParallaxText baseVelocity={25}>sass react-js</ParallaxText>
-			<ParallaxText baseVelocity={-19}>javascript github</ParallaxText>
+			<div>
+				<ParallaxText baseVelocity={-12}>
+					html css styled-component
+				</ParallaxText>
+				<ParallaxText baseVelocity={25}>sass react-js</ParallaxText>
+				<ParallaxText baseVelocity={-19}>javascript github</ParallaxText>
+			</div>
 		</div>
 	);
 };
