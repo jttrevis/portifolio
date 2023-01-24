@@ -2,21 +2,42 @@ import './styles.scss';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/Ai';
 import { RiComputerLine } from 'react-icons/Ri';
 import { BiMessageRoundedAdd } from 'react-icons/Bi';
+import { Link as Scroll } from 'react-scroll';
 export const Nav = () => {
 	return (
 		<nav className='nav'>
-			<a href='#'>
+			<Scroll
+				spy={true}
+				smooth={true}
+				duration={600}
+				to='header'
+			>
 				<AiOutlineHome />
-			</a>
-			<a href='#about'>
+			</Scroll>
+			<Scroll
+				spy={true}
+				smooth={true}
+				duration={600}
+				to='about'
+			>
 				<AiOutlineUser />
-			</a>
-			<a href='#projects'>
+			</Scroll>
+			<Scroll
+				spy={true}
+				smooth={true}
+				duration={600}
+				to='projects'
+			>
 				<RiComputerLine />
-			</a>
-			<a href='#contact'>
+			</Scroll>
+			<Scroll
+				spy={true}
+				smooth={true}
+				duration={600}
+				to='contact'
+			>
 				<BiMessageRoundedAdd />
-			</a>
+			</Scroll>
 		</nav>
 	);
 };

@@ -4,7 +4,10 @@ import CV from '../../assets/cv.pdf';
 import './styles.scss';
 export const Header = () => {
 	return (
-		<header className='header-container'>
+		<header
+			id='header'
+			className='header-container'
+		>
 			<section className='header-text'>
 				<h3>Hello, I'm</h3>
 				<h1>Junior C. Trevisol</h1>
