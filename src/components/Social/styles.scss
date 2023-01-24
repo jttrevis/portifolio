@@ -1,0 +1,30 @@
+
+.header-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 2rem;
+
+  a {
+
+    transition: all 0.2s;
+    color: #7c00b6;
+    &:hover {
+      scale: 1.1;
+      color: aliceblue;
+    }
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  .header-social{
+    flex-direction: row;
+  }
+
+
+
+}

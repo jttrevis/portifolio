@@ -1,14 +1,24 @@
 import React from 'react';
 import { ParallaxText } from '../ParallaxText';
 import './styles.scss';
+import { Social } from './../Social/index';
 export const About = () => {
 	return (
 		<div className='about-container'>
 			<div className='container'>
-				<img
-					src='images/eu.png'
-					alt=''
-				/>
+				<div className='photo-container'>
+					<a
+						className='scroll-down'
+						href='#contact'
+					>
+						Scroll Down
+					</a>
+					<img
+						src='images/eu.png'
+						alt=''
+					/>
+					<Social />
+				</div>
 
 				<p>
 					Hello, my name is Junior Cesar Trevisol and I am a junior web

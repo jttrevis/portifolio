@@ -1,5 +1,6 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf';
+
 import './styles.scss';
 export const Header = () => {
 	return (
