@@ -18,15 +18,21 @@ export const Projects = () => {
 					<div>
 						<img
 							src={pizzaria}
-							alt=''
+							alt='pizzaria'
 						/>
 					</div>
 					<h3>Pizzaria Trevisol</h3>
 					<div className='buttons'>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://pizzaria-trevisol.vercel.app/'
+						>
 							Demo <TbScreenShare />
 						</a>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://github.com/jttrevis/pizzaria'
+						>
 							Github <FaGithub />{' '}
 						</a>
 					</div>
@@ -36,15 +42,21 @@ export const Projects = () => {
 					<div>
 						<img
 							src={djSite}
-							alt=''
+							alt='dj Beto'
 						/>
 					</div>
 					<h3>Dj.Beto</h3>
 					<div className='buttons'>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://djbeto.vercel.app/'
+						>
 							Demo <TbScreenShare />
 						</a>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://github.com/jttrevis/discoteca'
+						>
 							Github <FaGithub />{' '}
 						</a>
 					</div>
@@ -54,15 +66,21 @@ export const Projects = () => {
 					<div>
 						<img
 							src={vetClinic}
-							alt=''
+							alt='Vet CLinic'
 						/>
 					</div>
 					<h3>Pantufas Vet</h3>
 					<div className='buttons'>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://vetclinic-one.vercel.app/'
+						>
 							Demo <TbScreenShare />
 						</a>
-						<a href=''>
+						<a
+							target='_blank'
+							href='https://github.com/jttrevis/PatunfasVet'
+						>
 							Github <FaGithub />{' '}
 						</a>
 					</div>
