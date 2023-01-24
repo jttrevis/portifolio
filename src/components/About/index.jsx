@@ -4,7 +4,10 @@ import './styles.scss';
 import { Social } from './../Social/index';
 export const About = () => {
 	return (
-		<div className='about-container'>
+		<div
+			id='about'
+			className='about-container'
+		>
 			<div className='container'>
 				<div className='photo-container'>
 					<a
