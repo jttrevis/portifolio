@@ -7,13 +7,16 @@
   padding: 2rem;
 
   a {
-
+    
     transition: all 0.2s;
     color: #7c00b6;
+    
     &:hover {
       scale: 1.1;
       color: aliceblue;
     }
+
+    
   }
 
 

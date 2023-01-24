@@ -2,6 +2,7 @@ import React from 'react';
 import { ParallaxText } from '../ParallaxText';
 import './styles.scss';
 import { Social } from './../Social/index';
+import { Link as Scroll } from 'react-scroll';
 export const About = () => {
 	return (
 		<div
@@ -10,12 +11,15 @@ export const About = () => {
 		>
 			<div className='container'>
 				<div className='photo-container'>
-					<a
+					<Scroll
 						className='scroll-down'
-						href='#contact'
+						spy={true}
+						smooth={true}
+						duration={600}
+						to='contact'
 					>
 						Scroll Down
-					</a>
+					</Scroll>
 					<img
 						src='images/eu.png'
 						alt=''
