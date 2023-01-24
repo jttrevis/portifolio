@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  max-width: 1360px;
 
   .contact-content {
     display: flex;
@@ -53,15 +54,16 @@
   .form-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     width: 50%;
-    
+    margin-bottom: auto;
+    margin-top: 3rem;
     gap: 1rem;
 
     input, textarea{
       width: 100%;
-      max-width: 300px;
+      max-width: 600px;
       border-radius: 0.5rem;
       padding: 1rem 5px;
       background: #bc33fc62;
@@ -102,4 +104,18 @@
     }
     
   }
+}
+
+@media (max-width: 768px) {
+  .contact-container{
+    flex-direction: column;
+
+    .contact-content{
+      article {
+        width: 100vw;
+      }
+    }
+  }
+
+
 }

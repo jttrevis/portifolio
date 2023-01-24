@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { toast } from 'react-hot-toast';
-import emailjs from '@emailjs/browser';
-
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/Ai';
 import { FaFacebookMessenger } from 'react-icons/Fa';
 import { RiMailSendLine } from 'react-icons/Ri';
+import { toast } from 'react-hot-toast';
+
 import './styles.scss';
+import emailjs from '@emailjs/browser';
 export const Contact = () => {
 	const [email, setEmail] = useState('');
 	const [name, setName] = useState('');
@@ -59,21 +59,36 @@ export const Contact = () => {
 					<AiOutlineMail />
 					<h3>Email</h3>
 					<span>jr.trevis@hotmail.com</span>
-					<a href=''>Send a Email</a>
+					<a
+						target='_blank'
+						href='mailto:jr.trevis@hotmail.com'
+					>
+						Send a Email
+					</a>
 				</article>
 
 				<article>
 					<AiOutlineWhatsApp />
 					<h3>WhatsApp</h3>
 					<span>+44 07858363772</span>
-					<a href=''>Send a Message</a>
+					<a
+						target='_blank'
+						href='https://wa.me/+4407858363772'
+					>
+						Send a Message
+					</a>
 				</article>
 
 				<article>
 					<FaFacebookMessenger />
 					<h3>Messanger</h3>
 					<span>Junior Trevisol</span>
-					<a href=''>Send a Message</a>
+					<a
+						target='_blank'
+						href='https://m.me/junior.trevisol'
+					>
+						Send a Message
+					</a>
 				</article>
 			</div>
 

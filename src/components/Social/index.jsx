@@ -12,13 +12,13 @@ export const Social = () => {
 			</a>
 			<a
 				target='_blank'
-				href='https://github.com/jttrevis'
+				href='https://www.linkedin.com/in/jrtrevisol/'
 			>
 				<FaGithub size={25} />
 			</a>
 			<a
 				target='_blank'
-				href='https://www.facebook.com/junior.trevisol'
+				href='https://www.linkedin.com/in/jrtrevisol/'
 			>
 				<BsFacebook size={25} />
 			</a>
