@@ -28,28 +28,22 @@ export const About = () => {
 				</div>
 
 				<p>
-					Hello, my name is Junior Cesar Trevisol and I am a junior web
-					developer. I specialize in creating responsive websites using
-					technologies such as HTML, CSS, Sass, Styled Components, TailwindCSS,
-					JavaScript, and ReactJS. I am also proficient in Git/Github, which
-					allows me to easily manage and collaborate on projects.
+					Hello! My name is Junior Trevisol and I am a Junior Front-end
+					Developer with a passion for creating visually appealing and
+					user-friendly websites. I have experience working with a variety of
+					technologies, including ReactJS, Javascript, HTML, CSS, SASS,
+					Styled-Components, and TailwindCSS. I am also well-versed in Git and
+					Github, allowing me to effectively collaborate and manage my code.
+					Let's work together to bring your website to the next level!
 				</p>
 				<p>
-					As a self-taught developer, I have a passion for creating dynamic and
-					engaging websites. I am always eager to learn new technologies and
-					skills and have experience in both front-end and back-end development.
-					My strong attention to detail and quick learning ability allows me to
-					create high-quality websites that are both visually appealing and easy
-					to use.
-				</p>
-				<p>
-					I have a portfolio of websites I have built, including [examples of
-					your work], that showcases my skills and abilities. I am always
-					looking for new opportunities to learn and grow as a developer. I am
-					available for freelance projects and am open to new job opportunities
-					as a Junior web developer. If you are in need of a web developer or
-					have any questions about my work, please don't hesitate to contact me.
-					Thank you for visiting my website!
+					In addition to my technical skills, I am a dedicated and eager
+					learner. I have a strong passion for web development and enjoy staying
+					up to date with the latest technologies and trends in the field. I
+					believe in continuously learning and growing as a developer, and am
+					excited to take on new challenges and expand my skillset. Whether it's
+					working on a new project or discovering a new tool, I am always eager
+					to learn and improve.
 				</p>
 			</div>
 			<div>

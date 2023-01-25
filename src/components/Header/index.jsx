@@ -1,5 +1,6 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf';
+import { AiOutlineDownload } from 'react-icons/Ai';
 
 import './styles.scss';
 export const Header = () => {
@@ -20,6 +21,7 @@ export const Header = () => {
 					className='button-cv'
 				>
 					Download CV
+					<AiOutlineDownload size={25} />
 				</a>
 				<a
 					href='#contact'
