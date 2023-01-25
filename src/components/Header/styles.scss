@@ -31,11 +31,15 @@
     
     .button-cv {
       padding: 0.8rem;
-      border-radius: 15px;
-      border: 1px solid #bc33fcab;
-      background: transparent;
-      color: #ac33fcad;
+
       transition: all 0.3s;
+
+
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
 
       &::before{
         content: "";
@@ -65,9 +69,12 @@
 
     .button-lts {
       padding: 0.8rem;
-      border-radius: 15px;
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
       box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-      background-image: linear-gradient(144deg,#5d029e, #5B42F3 50%,#00DDEB);
+      box-sizing: border-box;
+
       color: white;
       transition: all 0.3s;
 
