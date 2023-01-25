@@ -1,6 +1,6 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf';
-import { BsDownload } from 'react-icons/Bs';
+// import { BsDownload } from 'react-icons/Bs';
 import { Link as Scroll } from 'react-scroll';
 
 import './styles.scss';
@@ -22,7 +22,7 @@ export const Header = () => {
 					className='button-cv'
 				>
 					Download CV
-					<BsDownload size={20} />
+					{/* <BsDownload size={20} /> */}
 				</a>
 				<Scroll
 					spy={true}
