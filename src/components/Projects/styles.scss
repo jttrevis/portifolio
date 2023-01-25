@@ -28,56 +28,114 @@
     width: 100%;
 
 
+    .card{
+      
+      border-radius: 20px;
+      padding: 5px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      background-image: linear-gradient(144deg,#5d029e, #5B42F3 50%,#00DDEB);
+      min-width: 300px;
 
-    .project-content {
-      display: flex;
-      flex-direction: column;
-     
-      padding: 15px;
-      border-radius: 2rem;
-      gap: 0.8rem;
-      width: 100%;
-      max-width: 300px;
-      background-color: #bc33fc28;
-      text-align: center;
-  
-  
-      img{
-        width: 100%;
-        border-radius: 1rem;
-      }
 
-      .buttons{
+      .project-content {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-
-        a{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100px;
-          padding: 0.8rem;
-          border-radius: 15px;
+        flex-direction: column;
+       
+        padding: 10px;
+        border-radius: 2rem;
+        gap: 0.8rem;
+        
+        max-width: 300px;
+        text-align: center;
+        
+        background: rgb(5, 6, 45);
+        border-radius: 17px;
+        width: 100%;
+        height: 100%;
           
-          background: #bc33fc62;
-          transition: all 0.3s;
-          
-          svg{
-            margin-left: 10px;
-            
-          }
     
-          &:hover {
-            scale: 1.1;
-          }
-          }
-
-      }
+    
+        img{
+          width: 100%;
+          border-radius: 1rem;
+        }
   
- 
-      }
+        .buttons{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          
+  
+          a{
+            align-items: center;
+            background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            display: flex;
+            font-family: Phantomsans, sans-serif;
+            font-size: 18px;
+            justify-content: center;
+            line-height: 1em;
+            max-width: 100%;
+            
+            padding: 3px;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all .3s;
+            
+            svg{
+              margin-left: 10px;
+              
+            }
+
+
+            
+            &:active{
+              &:hover {
+                outline: 0;
+              }
+            }
+
+
+            .ButtonText{
+              background-color: rgb(5, 6, 45);
+              padding: 16px 24px;
+              border-radius: 6px;
+              width: 100%;
+              height: 100%;
+              transition: 300ms;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &:hover{
+                background: none;
+              }
+
+              &:active{
+                transform: scale(0.9);
+              }
+            }
+
+            }
+  
+        }
+    
+   
+        }
+    }
+
+
+
+
   }
 
   

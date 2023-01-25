@@ -55,41 +55,48 @@ export const Contact = () => {
 			className='contact-container'
 		>
 			<div className='contact-content'>
-				<article>
-					<AiOutlineMail />
-					<h3>Email</h3>
-					<span>jr.trevis@hotmail.com</span>
-					<a
-						target='_blank'
-						href='mailto:jr.trevis@hotmail.com'
-					>
-						Send a Email
-					</a>
-				</article>
+				<div className='card'>
+					<article>
+						<AiOutlineMail />
+						<h3>Email</h3>
+						<span>jr.trevis@hotmail.com</span>
+						<a
+							target='_blank'
+							href='mailto:jr.trevis@hotmail.com'
+						>
+							Send a Email
+						</a>
+					</article>
+				</div>
 
-				<article>
-					<AiOutlineWhatsApp />
-					<h3>WhatsApp</h3>
-					<span>+44 07858363772</span>
-					<a
-						target='_blank'
-						href='https://wa.me/+4407858363772'
-					>
-						Send a Message
-					</a>
-				</article>
+				<div className='card'>
+					{' '}
+					<article>
+						<AiOutlineWhatsApp />
+						<h3>WhatsApp</h3>
+						<span>+44 07858363772</span>
+						<a
+							target='_blank'
+							href='https://wa.me/+4407858363772'
+						>
+							Send a Message
+						</a>
+					</article>
+				</div>
 
-				<article>
-					<FaFacebookMessenger />
-					<h3>Messanger</h3>
-					<span>Junior Trevisol</span>
-					<a
-						target='_blank'
-						href='https://m.me/junior.trevisol'
-					>
-						Send a Message
-					</a>
-				</article>
+				<div className='card'>
+					<article>
+						<FaFacebookMessenger />
+						<h3>Messanger</h3>
+						<span>Junior Trevisol</span>
+						<a
+							target='_blank'
+							href='https://m.me/junior.trevisol'
+						>
+							Send a Message
+						</a>
+					</article>
+				</div>
 			</div>
 
 			<form
