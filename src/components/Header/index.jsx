@@ -1,6 +1,7 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf';
 import { AiOutlineDownload } from 'react-icons/Ai';
+import { Link as Scroll } from 'react-scroll';
 
 import './styles.scss';
 export const Header = () => {
@@ -12,7 +13,7 @@ export const Header = () => {
 			<section className='header-text'>
 				<h3>Hello, I'm</h3>
 				<h1>Junior C. Trevisol</h1>
-				<h3>Web Developer</h3>
+				<h3>Front-end Developer</h3>
 			</section>
 			<section className='header-buttons'>
 				<a
@@ -23,12 +24,15 @@ export const Header = () => {
 					Download CV
 					<AiOutlineDownload size={25} />
 				</a>
-				<a
-					href='#contact'
+				<Scroll
+					spy={true}
+					smooth={true}
+					duration={600}
+					to='contact'
 					className='button-lts'
 				>
 					Let's Talk
-				</a>
+				</Scroll>
 			</section>
 		</header>
 	);
