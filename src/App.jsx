@@ -6,12 +6,14 @@ import { Contact } from './components/Contact/index';
 import { Nav } from './components/Nav';
 import './App.css';
 import { Toaster } from 'react-hot-toast';
+import { Skills } from './components/Skills';
 function App() {
 	return (
 		<div>
 			<Header />
 			<About />
 			<Projects />
+			<Skills />
 			<Contact />
 			<Nav />
 			<Toaster />
