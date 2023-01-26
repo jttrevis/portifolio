@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import { FaFacebookMessenger } from 'react-icons/Fa';
-import { RiMailSendLine } from 'react-icons/Ri';
-import { MdOutlineEmail } from 'react-icons/Md';
-import { TbBrandWhatsapp } from 'react-icons/Tb';
+import faceLogo from '../../assets/logos/messe.svg';
+import emailLogo from '../../assets/logos/email.svg';
+import sendLogo from '../../assets/logos/send1.svg';
+import whatsLogo from '../../assets/logos/whats.svg';
 
 import { toast } from 'react-hot-toast';
 
@@ -60,7 +60,11 @@ export const Contact = () => {
 			<div className='contact-content'>
 				<div className='card'>
 					<article>
-						<MdOutlineEmail />
+						<img
+							className='logo'
+							src={emailLogo}
+							alt=''
+						/>
 						<h3>Email</h3>
 						<span>jr.trevis@hotmail.com</span>
 						<a
@@ -75,7 +79,11 @@ export const Contact = () => {
 				<div className='card'>
 					{' '}
 					<article>
-						<TbBrandWhatsapp />
+						<img
+							className='logo'
+							src={whatsLogo}
+							alt=''
+						/>
 						<h3>WhatsApp</h3>
 						<span>+44 07858363772</span>
 						<a
@@ -89,7 +97,11 @@ export const Contact = () => {
 
 				<div className='card'>
 					<article>
-						<FaFacebookMessenger />
+						<img
+							className='logo'
+							src={faceLogo}
+							alt=''
+						/>
 						<h3>Messanger</h3>
 						<span>Junior Trevisol</span>
 						<a
@@ -136,7 +148,11 @@ export const Contact = () => {
 					value='send'
 				>
 					Send
-					<RiMailSendLine />
+					<img
+						className='logo'
+						src={sendLogo}
+						alt=''
+					/>
 				</button>
 			</form>
 		</div>

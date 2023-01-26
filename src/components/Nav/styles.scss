@@ -26,6 +26,10 @@
     cursor: pointer;
     transition: all 0.2s;
 
+    img{
+      width: 25px;
+    }
+
     &:hover{
       background-color: rgb(0, 0, 0, 0.5);
     }

@@ -46,8 +46,8 @@
   
      
   
-        svg{
-          font-size: 1.5rem;
+        .logo{
+          width: 25px;
         }
         a{
           color: rgb(98, 161, 255);
@@ -118,10 +118,11 @@
       -moz-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in;
         
-        svg{
-          margin-left: 10px;
           
-        }
+      .logo{
+        width: 25px;
+        margin-left: 5px;
+      }
   
         &:hover {
           background: rgb(111, 0, 255);

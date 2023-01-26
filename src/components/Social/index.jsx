@@ -1,6 +1,8 @@
 import './styles.scss';
-import { BsLinkedin, BsFacebook } from 'react-icons/Bs';
-import { FaGithub } from 'react-icons/Fa';
+
+import linkedinLogo from '../../assets/logos/Link.svg';
+import githubLogo from '../../assets/logos/git.svg';
+import faceLogo from '../../assets/logos/fc.svg';
 export const Social = () => {
 	return (
 		<div className='header-social'>
@@ -8,19 +10,31 @@ export const Social = () => {
 				target='_blank'
 				href='https://www.linkedin.com/in/jrtrevisol/'
 			>
-				<BsLinkedin size={25} />
+				<img
+					className='logoSvg'
+					src={linkedinLogo}
+					alt=''
+				/>
 			</a>
 			<a
 				target='_blank'
 				href='https://github.com/jttrevis'
 			>
-				<FaGithub size={25} />
+				<img
+					className='logoSvg'
+					src={githubLogo}
+					alt=''
+				/>
 			</a>
 			<a
 				target='_blank'
 				href='https://www.facebook.com/junior.trevisol'
 			>
-				<BsFacebook size={25} />
+				<img
+					className='logoSvg'
+					src={faceLogo}
+					alt=''
+				/>
 			</a>
 		</div>
 	);

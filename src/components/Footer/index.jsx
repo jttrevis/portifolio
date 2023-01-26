@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import { AiOutlineCopyrightCircle } from 'react-icons/Ai';
+import copyLogo from '../../assets/logos/copy.svg';
 import { Link as Scroll } from 'react-scroll';
 import { Social } from './../Social/index';
 export const Footer = () => {
@@ -57,7 +57,10 @@ export const Footer = () => {
 				</div>
 				<div>
 					<span>
-						<AiOutlineCopyrightCircle />
+						<img
+							src={copyLogo}
+							alt=''
+						/>
 						JR.TREVIS Web Developer.All rights reserved.
 					</span>
 				</div>

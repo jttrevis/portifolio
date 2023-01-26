@@ -1,7 +1,10 @@
 import './styles.scss';
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/Ai';
-import { RiComputerLine } from 'react-icons/Ri';
-import { BiMessageRoundedAdd } from 'react-icons/Bi';
+
+import homeLogo from '../../assets/logos/home.png';
+import aboutLogo from '../../assets/logos/about.svg';
+import projectLogo from '../../assets/logos/project.png';
+import contactLogo from '../../assets/logos/contact.png';
+
 import { Link as Scroll } from 'react-scroll';
 export const Nav = () => {
 	return (
@@ -12,7 +15,10 @@ export const Nav = () => {
 				duration={600}
 				to='header'
 			>
-				<AiOutlineHome />
+				<img
+					src={homeLogo}
+					alt=''
+				/>
 			</Scroll>
 			<Scroll
 				spy={true}
@@ -20,7 +26,10 @@ export const Nav = () => {
 				duration={600}
 				to='about'
 			>
-				<AiOutlineUser />
+				<img
+					src={aboutLogo}
+					alt=''
+				/>
 			</Scroll>
 			<Scroll
 				spy={true}
@@ -28,7 +37,10 @@ export const Nav = () => {
 				duration={600}
 				to='projects'
 			>
-				<RiComputerLine />
+				<img
+					src={projectLogo}
+					alt=''
+				/>
 			</Scroll>
 			<Scroll
 				spy={true}
@@ -36,7 +48,10 @@ export const Nav = () => {
 				duration={600}
 				to='contact'
 			>
-				<BiMessageRoundedAdd />
+				<img
+					src={contactLogo}
+					alt=''
+				/>
 			</Scroll>
 		</nav>
 	);

@@ -3,6 +3,7 @@ import { ParallaxText } from '../ParallaxText';
 import './styles.scss';
 import { Social } from './../Social/index';
 import { Link as Scroll } from 'react-scroll';
+
 export const About = () => {
 	return (
 		<div
@@ -21,6 +22,7 @@ export const About = () => {
 						Scroll Down
 					</Scroll>
 					<img
+						className='photo'
 						src='images/eu.png'
 						alt=''
 					/>

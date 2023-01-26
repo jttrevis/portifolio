@@ -1,5 +1,8 @@
 import './styles.scss';
-import { FaGithub } from 'react-icons/Fa';
+
+import gitLogo from '../../assets/logos/github.png';
+import screenLogo from '../../assets/logos/screen.svg';
+
 import { TbScreenShare } from 'react-icons/Tb';
 import pizzaria from '../../assets/portifolioImages/pizzariaSite.png';
 import djSite from '../../assets/portifolioImages/djSite.png';
@@ -29,7 +32,12 @@ export const Projects = () => {
 								href='https://pizzaria-trevisol.vercel.app/'
 							>
 								<span className='ButtonText'>
-									Demo <TbScreenShare />
+									Demo
+									<img
+										className='logo'
+										src={screenLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 							<a
@@ -37,7 +45,12 @@ export const Projects = () => {
 								href='https://github.com/jttrevis/pizzaria'
 							>
 								<span className='ButtonText'>
-									Github <FaGithub />{' '}
+									Github
+									<img
+										className='logo'
+										src={gitLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 						</div>
@@ -59,7 +72,12 @@ export const Projects = () => {
 								href='https://djbeto.vercel.app/'
 							>
 								<span className='ButtonText'>
-									Demo <TbScreenShare />
+									Demo
+									<img
+										className='logo'
+										src={screenLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 							<a
@@ -67,7 +85,12 @@ export const Projects = () => {
 								href='https://github.com/jttrevis/discoteca'
 							>
 								<span className='ButtonText'>
-									Github <FaGithub />{' '}
+									Github
+									<img
+										className='logo'
+										src={gitLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 						</div>
@@ -89,7 +112,12 @@ export const Projects = () => {
 								href='https://vetclinic-one.vercel.app/'
 							>
 								<span className='ButtonText'>
-									Demo <TbScreenShare />
+									Demo
+									<img
+										className='logo'
+										src={screenLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 							<a
@@ -97,7 +125,12 @@ export const Projects = () => {
 								href='https://github.com/jttrevis/PatunfasVet'
 							>
 								<span className='ButtonText'>
-									Github <FaGithub />{' '}
+									Github
+									<img
+										className='logo'
+										src={gitLogo}
+										alt=''
+									/>
 								</span>
 							</a>
 						</div>
