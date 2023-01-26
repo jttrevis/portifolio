@@ -5,6 +5,8 @@
   margin: 0 auto;
   max-width: 1460px;
 
+  padding: 2rem 0;
+
   .contact-content {
     display: flex;
     flex-direction: column;
@@ -185,13 +187,13 @@
 @media (max-width: 768px) {
   .contact-container{
     flex-direction: column;
-
-    .contact-content{
-      article {
-        width: 100vw;
-      }
+    .form-container {
+      width: 80%;
     }
+  
   }
+
+
 
 
 }

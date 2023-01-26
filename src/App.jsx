@@ -7,6 +7,7 @@ import { Nav } from './components/Nav';
 import './App.css';
 import { Toaster } from 'react-hot-toast';
 import { Skills } from './components/Skills';
+import { Footer } from './components/Footer';
 function App() {
 	return (
 		<div>
@@ -15,6 +16,7 @@ function App() {
 			<Projects />
 			<Skills />
 			<Contact />
+			<Footer />
 			<Nav />
 			<Toaster />
 		</div>

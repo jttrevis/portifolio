@@ -11,7 +11,10 @@ import tailLogo from '../../assets/logos/tail.png';
 
 export const Skills = () => {
 	return (
-		<section className='container-skills'>
+		<section
+			id='skills'
+			className='container-skills'
+		>
 			<h1>Skills</h1>
 			<div>
 				<article className='cards-container'>
