@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/Ai';
+
 import { FaFacebookMessenger } from 'react-icons/Fa';
 import { RiMailSendLine } from 'react-icons/Ri';
+import { MdOutlineEmail } from 'react-icons/Md';
+import { TbBrandWhatsapp } from 'react-icons/Tb';
+
 import { toast } from 'react-hot-toast';
 
 import './styles.scss';
@@ -57,7 +60,7 @@ export const Contact = () => {
 			<div className='contact-content'>
 				<div className='card'>
 					<article>
-						<AiOutlineMail />
+						<MdOutlineEmail />
 						<h3>Email</h3>
 						<span>jr.trevis@hotmail.com</span>
 						<a
@@ -72,7 +75,7 @@ export const Contact = () => {
 				<div className='card'>
 					{' '}
 					<article>
-						<AiOutlineWhatsApp />
+						<TbBrandWhatsapp />
 						<h3>WhatsApp</h3>
 						<span>+44 07858363772</span>
 						<a
