@@ -3,7 +3,6 @@ import './styles.scss';
 import gitLogo from '../../assets/logos/github.png';
 import screenLogo from '../../assets/logos/screen.svg';
 
-import { TbScreenShare } from 'react-icons/Tb';
 import pizzaria from '../../assets/portifolioImages/pizzariaSite.png';
 import djSite from '../../assets/portifolioImages/djSite.png';
 import vetClinic from '../../assets/portifolioImages/vetClinic.png';
