@@ -2,7 +2,7 @@ import './styles.scss';
 
 import linkedinLogo from '../../assets/logos/Link.svg';
 import githubLogo from '../../assets/logos/git.svg';
-import faceLogo from '../../assets/logos/fc.svg';
+import faceLogo from '../../assets/logos/messe.svg';
 export const Social = () => {
 	return (
 		<div className='header-social'>
@@ -28,7 +28,7 @@ export const Social = () => {
 			</a>
 			<a
 				target='_blank'
-				href='https://www.facebook.com/junior.trevisol'
+				href='https://m.me/junior.trevisol'
 			>
 				<img
 					className='logoSvg'
