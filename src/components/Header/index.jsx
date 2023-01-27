@@ -12,7 +12,7 @@ export const Header = () => {
 		>
 			<section className='header-text'>
 				<h3>Hello, I'm</h3>
-				<h1>Junior C. Trevisol</h1>
+				<h1 className='focus-in-expand'>Junior C. Trevisol</h1>
 				<h3>Front-end Developer</h3>
 			</section>
 			<section className='header-buttons'>
