@@ -4,22 +4,38 @@ import { About } from './components/About/index';
 import { Projects } from './components/Projects/index';
 import { Contact } from './components/Contact/index';
 import { Nav } from './components/Nav';
-import './App.css';
+
 import { Toaster } from 'react-hot-toast';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
+import { InVeiwSection } from './components/InViewSection/index';
+
 function App() {
 	return (
-		<div>
-			<Header />
-			<About />
-			<Projects />
-			<Skills />
-			<Contact />
-			<Footer />
+		<>
+			<InVeiwSection>
+				<Header />
+			</InVeiwSection>
+
+			<InVeiwSection>
+				<About />
+			</InVeiwSection>
+
+			<InVeiwSection>
+				<Projects />
+			</InVeiwSection>
+			<InVeiwSection>
+				<Skills />
+			</InVeiwSection>
+			<InVeiwSection>
+				<Contact />
+			</InVeiwSection>
+			<>
+				<Footer />
+			</>
 			<Nav />
 			<Toaster />
-		</div>
+		</>
 	);
 }
 

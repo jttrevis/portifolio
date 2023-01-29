@@ -6,6 +6,7 @@ import screenLogo from '../../assets/logos/screen.svg';
 import pizzaria from '../../assets/portifolioImages/pizzariaSite.png';
 import djSite from '../../assets/portifolioImages/djSite.png';
 import vetClinic from '../../assets/portifolioImages/vetClinic.png';
+import { InVeiwSection } from './../InViewSection/index';
 
 export const Projects = () => {
 	return (

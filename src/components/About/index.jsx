@@ -3,6 +3,7 @@ import { ParallaxText } from '../ParallaxText';
 import './styles.scss';
 import { Social } from './../Social/index';
 import { Link as Scroll } from 'react-scroll';
+import { InVeiwSection } from './../InViewSection/index';
 
 export const About = () => {
 	return (
