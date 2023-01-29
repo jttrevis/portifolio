@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import copyLogo from '../../assets/logos/copy.svg';
+import jrLogo from '../../assets/logos/JuniorLogo1.png';
 import { Link as Scroll } from 'react-scroll';
 import { Social } from './../Social/index';
 export const Footer = () => {
@@ -10,7 +11,7 @@ export const Footer = () => {
 				<div>
 					<img
 						className='logo'
-						src='public/JuniorLogo1.png'
+						src={jrLogo}
 						alt=''
 					/>
 				</div>
