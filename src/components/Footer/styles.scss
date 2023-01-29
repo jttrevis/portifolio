@@ -12,6 +12,14 @@ footer{
     align-items: center;
     flex-direction: column;
 
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      padding: 1rem;
+    }
+
 
     h1{
       font-size: 2rem;

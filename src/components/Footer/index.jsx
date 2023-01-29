@@ -8,7 +8,11 @@ export const Footer = () => {
 		<footer>
 			<section>
 				<div>
-					<h1>Jr.Trevisol</h1>
+					<img
+						className='logo'
+						src='public/JuniorLogo1.png'
+						alt=''
+					/>
 				</div>
 				<div className='footer-links'>
 					<Scroll
