@@ -30,7 +30,7 @@ export const About = () => {
 					<Social />
 				</div>
 
-				<p>
+				<InVeiwSection>
 					Hello! My name is Junior Trevisol and I am a Junior Front-end
 					Developer with a passion for creating visually appealing and
 					user-friendly websites. I have experience working with a variety of
@@ -38,8 +38,8 @@ export const About = () => {
 					Styled-Components, and TailwindCSS. I am also well-versed in Git and
 					Github, allowing me to effectively collaborate and manage my code.
 					Let's work together to bring your website to the next level!
-				</p>
-				<p>
+				</InVeiwSection>
+				<InVeiwSection>
 					In addition to my technical skills, I am a dedicated and eager
 					learner. I have a strong passion for web development and enjoy staying
 					up to date with the latest technologies and trends in the field. I
@@ -47,7 +47,7 @@ export const About = () => {
 					excited to take on new challenges and expand my skillset. Whether it's
 					working on a new project or discovering a new tool, I am always eager
 					to learn and improve.
-				</p>
+				</InVeiwSection>
 			</div>
 			<div>
 				<ParallaxText baseVelocity={-12}>

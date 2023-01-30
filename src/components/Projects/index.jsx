@@ -1,14 +1,15 @@
 import './styles.scss';
-
+import { useState } from 'react';
 import gitLogo from '../../assets/logos/github.png';
 import screenLogo from '../../assets/logos/screen.svg';
-
 import pizzaria from '../../assets/portifolioImages/pizzariaSite.png';
 import djSite from '../../assets/portifolioImages/djSite.png';
 import vetClinic from '../../assets/portifolioImages/vetClinic.png';
-import { InVeiwSection } from './../InViewSection/index';
+import { motion } from 'framer-motion';
 
 export const Projects = () => {
+	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 		<section
 			id='projects'
@@ -21,38 +22,41 @@ export const Projects = () => {
 					<article className='project-content'>
 						<div>
 							<img
+								onMouseOver={vetClinic}
 								src={pizzaria}
 								alt='pizzaria'
 							/>
 						</div>
 						<h3>Pizzaria Trevisol</h3>
-						<div className='buttons'>
-							<a
-								target='_blank'
-								href='https://pizzaria-trevisol.vercel.app/'
-							>
-								<span className='ButtonText'>
-									Demo
-									<img
-										className='logo'
-										src={screenLogo}
-										alt=''
-									/>
-								</span>
-							</a>
-							<a
-								target='_blank'
-								href='https://github.com/jttrevis/pizzaria'
-							>
-								<span className='ButtonText'>
-									Github
-									<img
-										className='logo'
-										src={gitLogo}
-										alt=''
-									/>
-								</span>
-							</a>
+						<div>
+							<div className='buttons'>
+								<a
+									target='_blank'
+									href='https://pizzaria-trevisol.vercel.app/'
+								>
+									<span className='ButtonText'>
+										Demo
+										<img
+											className='logo'
+											src={screenLogo}
+											alt=''
+										/>
+									</span>
+								</a>
+								<a
+									target='_blank'
+									href='https://github.com/jttrevis/pizzaria'
+								>
+									<span className='ButtonText'>
+										Github
+										<img
+											className='logo'
+											src={gitLogo}
+											alt=''
+										/>
+									</span>
+								</a>
+							</div>
 						</div>
 					</article>
 				</div>
@@ -65,6 +69,7 @@ export const Projects = () => {
 								alt='dj Beto'
 							/>
 						</div>
+
 						<h3>Dj.Beto</h3>
 						<div className='buttons'>
 							<a
