@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.scss';
 import gitLogo from '../../assets/logos/github.png';
 import screenLogo from '../../assets/logos/screen.svg';
@@ -7,11 +7,6 @@ import djSite from '../../assets/portifolioImages/djSite.jpg';
 import vetClinic from '../../assets/portifolioImages/vetClinic.jpg';
 
 export const CardProjects = () => {
-	const [isOpen, setisOpen] = useState(false);
-	function handleOpenCard() {
-		setisOpen(!isOpen);
-	}
-
 	return (
 		<>
 			<div className='sectionTitle'>
@@ -24,14 +19,11 @@ export const CardProjects = () => {
 						<div className='cardContentFront'>
 							<img
 								src={pizzaria}
-								alt='Logo Programador CS'
+								alt='Pizzaria Website'
 								className='logo'
 							/>
 						</div>
-						<div
-							onClick={handleOpenCard}
-							className='cardContentBack'
-						>
+						<div className='cardContentBack'>
 							<div className='cardBackText'>
 								<p>
 									<h3>About:</h3>
