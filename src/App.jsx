@@ -1,7 +1,6 @@
 import { Header } from './components/Header';
 import { About } from './components/About/index';
 
-import { Projects } from './components/Projects/index';
 import { Contact } from './components/Contact/index';
 import { Nav } from './components/Nav';
 
@@ -9,6 +8,7 @@ import { Toaster } from 'react-hot-toast';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 import { InVeiwSection } from './components/InViewSection/index';
+import { CardProjects } from './components/CardsProjects/index';
 
 function App() {
 	return (
@@ -22,7 +22,7 @@ function App() {
 			</InVeiwSection>
 
 			<InVeiwSection>
-				<Projects />
+				<CardProjects />
 			</InVeiwSection>
 			<InVeiwSection>
 				<Skills />
