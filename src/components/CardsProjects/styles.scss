@@ -107,6 +107,7 @@
       align-items: flex-start;
       
       
+      
 
     }
   }
@@ -192,3 +193,11 @@
 
 }
 
+@media (max-width:480px) {
+  .cardRotation{
+    max-height: 500px;
+  }
+
+
+  
+}
