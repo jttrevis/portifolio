@@ -1,5 +1,5 @@
 import React from 'react';
-import { ParallaxText } from '../ParallaxText';
+
 import './styles.scss';
 import { Social } from './../Social/index';
 import { Link as Scroll } from 'react-scroll';
@@ -48,13 +48,6 @@ export const About = () => {
 					working on a new project or discovering a new tool, I am always eager
 					to learn and improve.
 				</InVeiwSection>
-			</div>
-			<div>
-				<ParallaxText baseVelocity={-12}>
-					html css styled-component
-				</ParallaxText>
-				<ParallaxText baseVelocity={25}>sass react-js</ParallaxText>
-				<ParallaxText baseVelocity={-19}>javascript github</ParallaxText>
 			</div>
 		</div>
 	);

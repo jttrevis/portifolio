@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.scss';
+
 import htmlLogo from '../../assets/logos/html.png';
 import cssLogo from '../../assets/logos/css.png';
 import sassLogo from '../../assets/logos/sass.png';
@@ -8,76 +9,72 @@ import gitLogo from '../../assets/logos/git.png';
 import githubLogo from '../../assets/logos/github.png';
 import reactLogo from '../../assets/logos/react.png';
 import tailLogo from '../../assets/logos/tail.png';
+import { ParallaxText } from '../../components/ParallaxText/index';
 
 export const Skills = () => {
 	return (
-		<section
-			id='skills'
-			className='container-skills'
-		>
-			<h1>Skills</h1>
+		<>
 			<div>
-				<article className='cards-container'>
-					<div class='skills'>
-						<span>
-							<img
-								src={htmlLogo}
-								alt='html logo'
-							/>{' '}
-							HTML5{' '}
-						</span>
-						<span>
-							<img
-								src={cssLogo}
-								alt='css logo'
-							/>{' '}
-							CSS3{' '}
-						</span>
-						<span>
-							<img
-								src={sassLogo}
-								alt='sass logo'
-							/>{' '}
-							SASS{' '}
-						</span>
-						<span>
-							<img
-								src={tailLogo}
-								alt='tailwind logo'
-							/>{' '}
-							TailWind{' '}
-						</span>
-						<span>
-							<img
-								src={reactLogo}
-								alt='react logo'
-							/>{' '}
-							React Js
-						</span>
-						<span>
-							<img
-								src={jsLogo}
-								alt='Javascript logo'
-							/>{' '}
-							Javascript
-						</span>
-						<span>
-							<img
-								src={githubLogo}
-								alt='github logo'
-							/>{' '}
-							GitHub
-						</span>
-						<span>
-							<img
-								src={gitLogo}
-								alt='git logo'
-							/>{' '}
-							Git
-						</span>
-					</div>
-				</article>
+				<ParallaxText baseVelocity={20}>REACT JAVASCRIPT</ParallaxText>
+				<ParallaxText baseVelocity={-19}>
+					CSS SASS STYLED-COMPONENT TAILWIND
+				</ParallaxText>
 			</div>
-		</section>
+			<div className='skillsContainer'>
+				<h1>Skills</h1>
+				<div className='carrosel'>
+					<div className='caixa__card cc__1 '>
+						<img
+							src={htmlLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__2 '>
+						<img
+							src={cssLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__3 '>
+						<img
+							src={sassLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__4 '>
+						<img
+							src={jsLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__5 '>
+						<img
+							src={githubLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__6 '>
+						<img
+							src={gitLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__7 '>
+						<img
+							src={reactLogo}
+							alt=''
+						/>
+					</div>
+					<div className='caixa__card cc__8 '>
+						<img
+							src={tailLogo}
+							alt=''
+						/>
+					</div>
+				</div>
+			</div>
+			<ParallaxText baseVelocity={-12}> GIT GITHUB</ParallaxText>
+			<ParallaxText baseVelocity={25}>HTML5 MOBILE FIRST </ParallaxText>
+		</>
 	);
 };

@@ -1,70 +1,129 @@
-.container-skills{
+.skillsContainer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem auto;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 3rem;
 
   h1{
+    position: absolute;
     font-size: 3rem;
     margin-bottom: 2rem;
     background: -webkit-linear-gradient(#eee, rgb(44, 0, 163));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  .cards-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 4rem;
-  
-  
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      gap: 3rem;
-      padding: 2rem;
-      justify-content: center;
-      align-items: center;
-      
-      
-      background: rgb(5, 6, 45);
-      border-radius: 15px;
-    
-      span{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img{
-          max-width: 25px;
-          margin-right: 8px;
-        }
-        
-        svg{
-          margin-right: 8px;
-          font-size: 1.5rem;
-         }
-      }
-    
-  
-    
-     
-      
-    }
+    z-index: 5;
   }
 }
 
+.carrosel {
+  -webkit-perspective: 250px;
+  -moz-perspective: 250px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
 
+@keyframes efeitoCarrosel {
+  from {
+      transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+      z-index: 10;
+      opacity: 1;
+  }
 
+  50% {
+      z-index: -10;
+  }
 
+  to {
+      transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+      z-index: 10;
+      opacity: 1;
+  }
+}
 
+.caixa__card {
+  background-color: #442222;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 35px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+  text-align: center;
+  animation-name: efeitoCarrosel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 
+  img {
+    max-width: 35px;
+    width: 100%;
+  }
+}
 
+.caixa__card:hover {
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #4466cc;
+}
 
+.cc__1 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -7s;
+  }
+}
 
+.cc__2 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -6s;
+  }
+}
 
+.cc__3 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -5s;
+  }
+}
+
+.cc__4 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -4s;
+  }
+}
+
+.cc__5 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -3s;
+  }
+}
+
+.cc__6 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -2s;
+  }
+}
+
+.cc__7 {
+  &.caixa__card {
+    background: transparent;
+    animation-delay: -1s;
+  }
+}
+
+.cc__8 {
+  &.caixa__card {
+    background: transparent;
+  }
+}
