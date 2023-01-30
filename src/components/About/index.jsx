@@ -24,7 +24,7 @@ export const About = () => {
 					</Scroll>
 					<img
 						className='photo'
-						src='images/eu.png'
+						src='images/eu.jpg'
 						alt=''
 					/>
 					<Social />
