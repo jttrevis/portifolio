@@ -9,9 +9,12 @@ import vetClinic from '../../assets/portifolioImages/vetClinic.jpg';
 export const CardProjects = () => {
 	return (
 		<>
-			<div className='sectionTitle'>
+			<div
+				id='projects'
+				className='sectionTitle'
+			>
 				<h5>My Recents Work</h5>
-				<h1>Portifolio</h1>
+				<h1>Portfolio</h1>
 			</div>
 			<div className='projectContainer'>
 				<div className='cardRotation'>
