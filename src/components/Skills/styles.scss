@@ -1,3 +1,8 @@
+.parallaxContainer {
+  display: inline;
+}
+
+
 .skillsContainer {
   display: flex;
   justify-content: center;
@@ -72,7 +77,8 @@
 
 .caixa__card:hover {
   border-radius: 100%;
-  box-shadow: 0px 0px 10px #4466cc;
+  transition:  all 0.2s;
+  filter: drop-shadow(0px 0px 10px #4466cc);
 }
 
 .cc__1 {
