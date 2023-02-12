@@ -7,12 +7,6 @@ import djSite from '../../assets/portifolioImages/djSite.jpg';
 import vetClinic from '../../assets/portifolioImages/vetClinic.jpg';
 
 export const CardProjects = () => {
-	const [flip, setFlip] = useState('cardContentBack');
-
-	const handleFlip = () => {
-		setFlip('cardContentBack');
-	};
-
 	return (
 		<>
 			<div

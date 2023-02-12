@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
-export function InVeiwSection({ children }) {
+export function InViewSection({ children }) {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 

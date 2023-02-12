@@ -7,29 +7,29 @@ import { Nav } from './components/Nav';
 import { Toaster } from 'react-hot-toast';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
-import { InVeiwSection } from './components/InViewSection/index';
+import { InViewSection } from './components/InViewSection/index';
 import { CardProjects } from './components/CardsProjects/index';
 
 function App() {
 	return (
 		<>
-			<InVeiwSection>
+			<InViewSection>
 				<Header />
-			</InVeiwSection>
+			</InViewSection>
 
-			<InVeiwSection>
+			<InViewSection>
 				<About />
-			</InVeiwSection>
+			</InViewSection>
 
-			<InVeiwSection>
+			<InViewSection>
 				<CardProjects />
-			</InVeiwSection>
-			<InVeiwSection>
+			</InViewSection>
+			<InViewSection>
 				<Skills />
-			</InVeiwSection>
-			<InVeiwSection>
+			</InViewSection>
+			<InViewSection>
 				<Contact />
-			</InVeiwSection>
+			</InViewSection>
 			<>
 				<Footer />
 			</>
