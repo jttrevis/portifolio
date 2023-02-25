@@ -9,66 +9,49 @@ import vetClinic from '../../assets/portifolioImages/vetClinic.jpg';
 export const CardProjects = () => {
 	return (
 		<>
-			<div
-				id='projects'
-				className='sectionTitle'
-			>
+			<div id="projects" className="sectionTitle">
 				<h5>My Recents Work</h5>
 				<h1>Portfolio</h1>
 			</div>
-			<div className='projectContainer'>
-				<div className='cardRotation'>
-					<div className='cardRotationContent '>
-						<div className='cardContentFront'>
-							<img
-								src={pizzaria}
-								alt='Pizzaria Website'
-								className='logo'
-							/>
+			<div className="projectContainer">
+				<div className="cardRotation">
+					<div className="cardRotationContent ">
+						<div className="cardContentFront">
+							<img src={pizzaria} alt="Pizzaria Website" className="logo" />
 						</div>
-						<div className='cardContentBack'>
-							<div className='cardBackText'>
+						<div className="cardContentBack">
+							<div className="cardBackText">
 								<p>
 									<h3>About: Pizzaria "E-commerce"</h3>
 									This project simulates a Pizzaria website, where you can
-									choose between different product options.
+									choose between different product options. this application has
+									a admin area where you can add/edit/remove products
 								</p>
 
 								<h3>Technology:</h3>
-								<p>
-									HTML | CSS | MaterialUI | Styled Components | JavaScript |
-									ReactJS | ContextAPI
-								</p>
+								<p>ReactJS | ContextAPI | Styled Components | Prismic CMS |</p>
 								<p>
 									<p>Deploy: Vercel</p>
 								</p>
 							</div>
 							<div>
-								<div className='buttons'>
+								<div className="buttons">
 									<a
-										target='_blank'
-										href='https://pizzaria-trevisol.vercel.app/'
+										target="_blank"
+										href="https://pizzaria-trevisol.vercel.app/"
 									>
-										<span className='ButtonText'>
+										<span className="ButtonText">
 											Demo
-											<img
-												className='logo'
-												src={screenLogo}
-												alt=''
-											/>
+											<img className="logo" src={screenLogo} alt="" />
 										</span>
 									</a>
 									<a
-										target='_blank'
-										href='https://github.com/jttrevis/pizzaria'
+										target="_blank"
+										href="https://github.com/jttrevis/pizzaria"
 									>
-										<span className='ButtonText'>
+										<span className="ButtonText">
 											Github
-											<img
-												className='logo'
-												src={gitLogo}
-												alt=''
-											/>
+											<img className="logo" src={gitLogo} alt="" />
 										</span>
 									</a>
 								</div>
@@ -77,16 +60,13 @@ export const CardProjects = () => {
 					</div>
 				</div>
 
-				<div className='cardRotation'>
-					<div className='cardRotationContent '>
-						<div className='cardContentFront'>
-							<img
-								src={vetClinic}
-								alt='Vet CLinic'
-							/>
+				<div className="cardRotation">
+					<div className="cardRotationContent ">
+						<div className="cardContentFront">
+							<img src={vetClinic} alt="Vet CLinic" />
 						</div>
-						<div className='cardContentBack'>
-							<div className='cardBackText'>
+						<div className="cardContentBack">
+							<div className="cardBackText">
 								<p>
 									<h3>About: "Veterinary Clinic"</h3>
 									The project is a responsive veterinary clinic website that has
@@ -102,31 +82,20 @@ export const CardProjects = () => {
 								<p>Deploy: Vercel</p>
 							</div>
 							<div>
-								<div className='buttons'>
-									<a
-										target='_blank'
-										href='https://vetclinic-one.vercel.app/'
-									>
-										<span className='ButtonText'>
+								<div className="buttons">
+									<a target="_blank" href="https://vetclinic-one.vercel.app/">
+										<span className="ButtonText">
 											Demo
-											<img
-												className='logo'
-												src={screenLogo}
-												alt=''
-											/>
+											<img className="logo" src={screenLogo} alt="" />
 										</span>
 									</a>
 									<a
-										target='_blank'
-										href='https://github.com/jttrevis/PatunfasVet'
+										target="_blank"
+										href="https://github.com/jttrevis/PatunfasVet"
 									>
-										<span className='ButtonText'>
+										<span className="ButtonText">
 											Github
-											<img
-												className='logo'
-												src={gitLogo}
-												alt=''
-											/>
+											<img className="logo" src={gitLogo} alt="" />
 										</span>
 									</a>
 								</div>
@@ -135,16 +104,13 @@ export const CardProjects = () => {
 					</div>
 				</div>
 
-				<div className='cardRotation'>
-					<div className='cardRotationContent '>
-						<div className='cardContentFront'>
-							<img
-								src={djSite}
-								alt='dj Beto'
-							/>
+				<div className="cardRotation">
+					<div className="cardRotationContent ">
+						<div className="cardContentFront">
+							<img src={djSite} alt="dj Beto" />
 						</div>
-						<div className='cardContentBack'>
-							<div className='cardBackText'>
+						<div className="cardContentBack">
+							<div className="cardBackText">
 								<p>
 									<h3>About: "institutional website"</h3>
 									This project i build using mobile first method for my brother
@@ -157,31 +123,20 @@ export const CardProjects = () => {
 								<p>Deploy: Vercel</p>
 							</div>
 							<div>
-								<div className='buttons'>
-									<a
-										target='_blank'
-										href='https://djbeto.vercel.app/'
-									>
-										<span className='ButtonText'>
+								<div className="buttons">
+									<a target="_blank" href="https://djbeto.vercel.app/">
+										<span className="ButtonText">
 											Demo
-											<img
-												className='logo'
-												src={screenLogo}
-												alt=''
-											/>
+											<img className="logo" src={screenLogo} alt="" />
 										</span>
 									</a>
 									<a
-										target='_blank'
-										href='https://github.com/jttrevis/discoteca'
+										target="_blank"
+										href="https://github.com/jttrevis/discoteca"
 									>
-										<span className='ButtonText'>
+										<span className="ButtonText">
 											Github
-											<img
-												className='logo'
-												src={gitLogo}
-												alt=''
-											/>
+											<img className="logo" src={gitLogo} alt="" />
 										</span>
 									</a>
 								</div>
