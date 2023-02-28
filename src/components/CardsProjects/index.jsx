@@ -5,6 +5,7 @@ import screenLogo from '../../assets/logos/screen.svg';
 import pizzaria from '../../assets/portifolioImages/pizzariaSite.jpg';
 import djSite from '../../assets/portifolioImages/djSite.jpg';
 import vetClinic from '../../assets/portifolioImages/vetClinic.jpg';
+import golePage from '../../assets/portifolioImages/gole.png';
 
 export const CardProjects = () => {
 	return (
@@ -93,6 +94,47 @@ export const CardProjects = () => {
 										target="_blank"
 										href="https://github.com/jttrevis/PatunfasVet"
 									>
+										<span className="ButtonText">
+											Github
+											<img className="logo" src={gitLogo} alt="" />
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="cardRotation">
+					<div className="cardRotationContent ">
+						<div className="cardContentFront">
+							<img src={golePage} alt="Drinks" />
+						</div>
+						<div className="cardContentBack">
+							<div className="cardBackText">
+								<p>
+									<h3>About: "Cocktails Website"</h3>
+									The project is a responsive Cocktails website where you can
+									find your favorite cocktail from over 600 cocktails. On this
+									website I improved my knowledge about Rest API consumption by
+									simulating several requests directly to an external API.
+								</p>
+								<h3>Technology:</h3>
+								<p>ReactJS | SASS | Axios | JavaScript | Framer Motion</p>
+								<p>Deploy: Vercel</p>
+							</div>
+							<div>
+								<div className="buttons">
+									<a
+										target="_blank"
+										href="https://gole-4agimhppi-jttrevis.vercel.app/"
+									>
+										<span className="ButtonText">
+											Demo
+											<img className="logo" src={screenLogo} alt="" />
+										</span>
+									</a>
+									<a target="_blank" href="https://github.com/jttrevis/gole">
 										<span className="ButtonText">
 											Github
 											<img className="logo" src={gitLogo} alt="" />

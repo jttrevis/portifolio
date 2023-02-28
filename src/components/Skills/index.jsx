@@ -20,56 +20,32 @@ export const Skills = () => {
 					CSS SASS STYLED-COMPONENT TAILWIND
 				</ParallaxText>
 			</div>
-			<div className='skillsContainer'>
+			<div id="skills" className="skillsContainer">
 				<h1>Skills</h1>
-				<div className='carrosel'>
-					<div className='caixa__card cc__1 '>
-						<img
-							src={htmlLogo}
-							alt=''
-						/>
+				<div className="carrosel">
+					<div className="caixa__card cc__1 ">
+						<img src={htmlLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__2 '>
-						<img
-							src={cssLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__2 ">
+						<img src={cssLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__3 '>
-						<img
-							src={sassLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__3 ">
+						<img src={sassLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__4 '>
-						<img
-							src={jsLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__4 ">
+						<img src={jsLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__5 '>
-						<img
-							src={githubLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__5 ">
+						<img src={githubLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__6 '>
-						<img
-							src={gitLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__6 ">
+						<img src={gitLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__7 '>
-						<img
-							src={reactLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__7 ">
+						<img src={reactLogo} alt="" />
 					</div>
-					<div className='caixa__card cc__8 '>
-						<img
-							src={tailLogo}
-							alt=''
-						/>
+					<div className="caixa__card cc__8 ">
+						<img src={tailLogo} alt="" />
 					</div>
 				</div>
 			</div>
