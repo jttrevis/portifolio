@@ -10,21 +10,14 @@ export const Header = () => {
 
 	if (!data) return null;
 	return (
-		<header
-			id='header'
-			className='header-container'
-		>
-			<section className='header-text'>
+		<header id="header" className="header-container">
+			<section className="header-text">
 				<h3>{data.greeting_text}</h3>
-				<h1 className='focus-in-expand'>{data.name}</h1>
+				<h1 className="focus-in-expand">{data.name}</h1>
 				<h3>{data.job}</h3>
 			</section>
-			<section className='header-buttons'>
-				<a
-					href={CV}
-					download
-					className='button-cv'
-				>
+			<section className="header-buttons">
+				<a href={CV} download className="button-cv">
 					Download CV
 					{/* <BsDownload size={20} /> */}
 				</a>
@@ -32,10 +25,10 @@ export const Header = () => {
 					spy={true}
 					smooth={true}
 					duration={600}
-					to='contact'
-					className='button-lts'
+					to="contact"
+					className="button-lts"
 				>
-					Let's Talk
+					Let's talk
 				</Scroll>
 			</section>
 		</header>
