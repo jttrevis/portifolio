@@ -1,9 +1,12 @@
 import React from 'react';
 import CV from '../../assets/cv.pdf';
 import { Link as Scroll } from 'react-scroll';
+import dwn from '../../assets/logos/dwn.svg';
+import chat from '../../assets/logos/chat.svg';
 
 import './styles.scss';
 import { handleDocument } from './../../helpers/prismic/home';
+import Button from './../Button/Button';
 
 export const Header = () => {
 	const data = handleDocument();
@@ -17,17 +20,11 @@ export const Header = () => {
 				<h3>{data.job}</h3>
 			</section>
 			<section className="header-buttons">
-				<a href={CV} download className="button-cv">
+				<Button icon={dwn} href={CV}>
 					Download CV
-				</a>
-				<Scroll
-					spy={true}
-					smooth={true}
-					duration={600}
-					to="contact"
-					className="button-lts"
-				>
-					Let's talk
+				</Button>
+				<Scroll spy={true} smooth={true} duration={600} to="contact">
+					<Button icon={chat}>Let's talk</Button>
 				</Scroll>
 			</section>
 		</header>

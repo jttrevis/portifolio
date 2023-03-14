@@ -4,7 +4,7 @@ const Button = ({ href, children, icon }) => {
 	return (
 		<a className="buttonLink" target="_blank" href={href}>
 			<p>{children}</p>
-			<img src={icon} alt="" />
+			<img className="logo" src={icon} alt="" />
 		</a>
 	);
 };

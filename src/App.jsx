@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 import { InViewSection } from './components/InViewSection/index';
-import { CardProjects } from './components/CardsProjects/index';
+
 import Projects from './components/Projects/Projects';
 
 function App() {
