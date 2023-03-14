@@ -19,7 +19,6 @@ export const Header = () => {
 			<section className="header-buttons">
 				<a href={CV} download className="button-cv">
 					Download CV
-					{/* <BsDownload size={20} /> */}
 				</a>
 				<Scroll
 					spy={true}
