@@ -13,6 +13,7 @@ export const About = () => {
 		<div id="about" className="about-container">
 			<div className="container">
 				<div className="photo-container">
+					<h1 className="bgAbout">ABOUT</h1>
 					<Scroll
 						className="scroll-down"
 						spy={true}
@@ -27,17 +28,19 @@ export const About = () => {
 				</div>
 
 				<InViewSection>
-					My name is Junior Trevisol and I am a{' '}
-					<strong>Front-end developer</strong> with a passion for creating
-					visually appealing and user-friendly websites. I have experience
-					working with a variety of technologies, including{' '}
-					<strong>
-						ReactJS, Javascript, HTML, CSS, SASS, Styled-Components, and
-						TailwindCSS.
-					</strong>{' '}
-					I am also well-versed in <strong>Git and Github</strong>, allowing me
-					to effectively collaborate and manage my code. Let's work together to
-					bring your website to the next level!
+					<div className="text">
+						My name is Junior Trevisol and I am a{' '}
+						<strong>Front-end developer</strong> with a passion for creating
+						visually appealing and user-friendly websites. I have experience
+						working with a variety of technologies, including{' '}
+						<strong>
+							ReactJS, Javascript, HTML, CSS, SASS, Styled-Components, and
+							TailwindCSS.
+						</strong>{' '}
+						I am also well-versed in <strong>Git and Github</strong>, allowing
+						me to effectively collaborate and manage my code. Let's work
+						together to bring your website to the next level!
+					</div>
 				</InViewSection>
 			</div>
 		</div>

@@ -34,8 +34,9 @@
   max-width: 1400px;
   background: #0F0D0E;
   padding: 3rem;
+  
   border-radius: 15px;
-  border: 1px solid rgb(111, 0, 255);
+  // border: 1px solid rgb(111, 0, 255);
   
   
   
@@ -50,29 +51,42 @@
     border-radius: 15px;
     
     
+    
   }
 }
 
 .projectInfo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
+  justify-content: flex-start;
+  width: 100%;
   max-width: 400px;
   gap: 1rem;
+}
+
+.bgProject{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  z-index: -1;
+  right: 100px;
+  font-size: 10rem;
+  
+  color: #00000049;
 }
 
 .buttons{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 0;
   
-  gap: 3rem;
+  gap: 1rem;
  
 
 
 }
+
 
 
 

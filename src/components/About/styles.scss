@@ -6,7 +6,16 @@ height: 100%;
 margin: 0 auto;
 }
 
-
+.bgAbout {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  z-index: -1;
+  left: 100px;
+  top: 200px;
+  font-size: 10rem;
+  color: #00000049;
+}
 
 
 .container {
@@ -44,7 +53,7 @@ margin: 0 auto;
 
  
   
-  p{
+  .text{
     padding: 1rem 3rem;
     text-align: center;
     font-size: 1.2rem;
@@ -80,6 +89,21 @@ margin: 0 auto;
       transform: rotate(-90deg);
       padding: 0;
       cursor: pointer;
+
+      &::before{
+        content: '';
+        background-image: url('../../assets/arrowS.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        margin:  0 15px;
+        transform: rotate(270deg);
+      }
       
       &:hover {
         scale: 1.1;

@@ -20,12 +20,12 @@ export const Header = () => {
 				<h3>{data.job}</h3>
 			</section>
 			<section className="header-buttons">
-				<Button icon={dwn} href={CV}>
-					Download CV
-				</Button>
 				<Scroll spy={true} smooth={true} duration={600} to="contact">
 					<Button icon={chat}>Let's talk</Button>
 				</Scroll>
+				<Button icon={dwn} href={CV}>
+					Resume
+				</Button>
 			</section>
 		</header>
 	);
