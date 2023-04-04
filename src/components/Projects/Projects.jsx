@@ -5,6 +5,7 @@ import pizzaria from '../../assets/portifolioImages/pizza.png';
 import portfolio from '../../assets/portifolioImages/port.png';
 import djSite from '../../assets/portifolioImages/dj.png';
 import vetClinic from '../../assets/portifolioImages/vet.png';
+import hatStore from '../../assets/portifolioImages/hatStore.png';
 import golePage from '../../assets/portifolioImages/drink.png';
 import './styles.scss';
 import Button from '../Button/Button';
@@ -16,6 +17,58 @@ const Projects = () => {
 				<h5>My Recents Work</h5>
 				<h1>Portfolio</h1>
 			</div>
+			<InViewSection2>
+				<div className="projectContent">
+					<div className="projectInfo">
+						<h3>About: "Hat Store E-Commercer"</h3>
+						<p>
+							Hat Store is a fully functional e-commerce website built using
+							React, Sass, Framer Motion, and React Bootstrap. The website is
+							designed to offer an easy and seamless shopping experience for hat
+							lovers, allowing them to browse through a wide range of hat
+							styles, colors, and sizes.
+						</p>
+						<h3>Features:</h3>
+						<p>
+							<strong>Product Catalogue:</strong> Users can browse through a
+							vast selection of hats and filter them by brand and color.
+						</p>
+						<p>
+							<strong> Product Details: </strong>Users can view detailed
+							information about each hat, including its price, description, and
+							images.
+						</p>
+						<p>
+							<strong>Responsive Design:</strong> The website is fully
+							responsive, ensuring that it looks great on any device.
+						</p>
+						<p>
+							<strong>Shopping Cart:</strong> Users can add hats to their
+							shopping carts and make purchases. The cart includes a shipping
+							price of $15. If the costumer buys more than $100, the shipping is
+							free.
+						</p>
+						<h3>Technology:</h3>
+						<p>React | Sass | Framer Motion | React Bootstrap | HTML </p>
+						<p>Deploy: Vercel</p>
+						<div className="buttons">
+							<Button icon={screenLogo} href={'https://hat-store.vercel.app/'}>
+								Demo
+							</Button>
+							<Button
+								icon={gitLogo}
+								href={'https://github.com/jttrevis/HatMart'}
+							>
+								Github
+							</Button>
+						</div>
+					</div>
+					<div className="projectImage">
+						<img src={hatStore} alt="" />
+					</div>
+				</div>
+			</InViewSection2>
+
 			<InViewSection>
 				<div className="projectContent">
 					<div className="projectImage">
