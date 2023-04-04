@@ -66,7 +66,7 @@ const Projects = () => {
 						<div className="buttons">
 							<Button
 								icon={screenLogo}
-								href={'https://vetclinic-one.vercel.app/'}
+								href={'https://veterinary-ruby.vercel.app/'}
 							>
 								Demo
 							</Button>
