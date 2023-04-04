@@ -12,7 +12,6 @@ import { InViewSection, InViewSection2 } from '../InViewSection';
 const Projects = () => {
 	return (
 		<div className="projectContainer">
-			yarn a
 			<div id="projects" className="title">
 				<h5>My Recents Work</h5>
 				<h1>Portfolio</h1>
@@ -78,9 +77,9 @@ const Projects = () => {
 								Github
 							</Button>
 						</div>
-						<div className="projectImage">
-							<img src={vetClinic} alt="" />
-						</div>
+					</div>
+					<div className="projectImage">
+						<img src={vetClinic} alt="" />
 					</div>
 				</div>
 			</InViewSection2>
