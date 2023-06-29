@@ -23,7 +23,6 @@ function App() {
 			</InViewSection>
 
 			<InViewSection>
-				{/* <CardProjects /> */}
 				<Projects />
 			</InViewSection>
 			<InViewSection>

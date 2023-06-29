@@ -4,11 +4,11 @@ import './styles.scss';
 import { Social } from './../Social/index';
 import { Link as Scroll } from 'react-scroll';
 import { InViewSection } from './../InViewSection/index';
-import { handleDocument } from '../../helpers/prismic/home';
+
 
 export const About = () => {
-	const data = handleDocument();
-	if (!data) return null;
+	
+	
 	return (
 		<div id="about" className="about-container">
 			<div className="container">
@@ -29,17 +29,10 @@ export const About = () => {
 
 				<InViewSection>
 					<div className="text">
-						My name is Junior Trevisol and I am a{' '}
-						<strong>Front-end developer</strong> with a passion for creating
-						visually appealing and user-friendly websites. I have experience
-						working with a variety of technologies, including{' '}
-						<strong>
-							ReactJS, Javascript, HTML, CSS, SASS, Styled-Components, and
-							TailwindCSS.
-						</strong>{' '}
-						I am also well-versed in <strong>Git and Github</strong>, allowing
-						me to effectively collaborate and manage my code. Let's work
-						together to bring your website to the next level!
+						<p>I am passionate about technology and am always dedicated to keeping up to date with the latest trends and advancements.</p>
+						<p>In my spare time, when I'm not working on my projects, I enjoy the world of astronomy, games and cinema. Exploring the mysteries of the universe, immersing yourself in exciting gaming experiences, and immersing yourself in captivating cinematic journeys brings me joy and inspiration.</p>
+
+						<p>I have an insatiable curiosity and thirst for knowledge, constantly looking for learning opportunities and personal and professional growth. I thrive in dynamic environments that challenge me and provide avenues for continued development.</p>
 					</div>
 				</InViewSection>
 			</div>

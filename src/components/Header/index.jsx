@@ -5,25 +5,25 @@ import dwn from '../../assets/logos/dwn.svg';
 import chat from '../../assets/logos/chat.svg';
 
 import './styles.scss';
-import { handleDocument } from './../../helpers/prismic/home';
+
 import Button from './../Button/Button';
 
 export const Header = () => {
-	const data = handleDocument();
+	
 
-	if (!data) return null;
+	
 	return (
 		<header id="header" className="header-container">
 			<section className="header-text">
-				<h3>{data.greeting_text}</h3>
-				<h1 className="focus-in-expand">{data.name}</h1>
-				<h3>{data.job}</h3>
+				<h3>Hello, I'm</h3>
+				<h1 className="focus-in-expand">Junior Trevisol</h1>
+				<h3>Front-end developer</h3>
 			</section>
 			<section className="header-buttons">
 				<Scroll spy={true} smooth={true} duration={600} to="contact">
 					<Button icon={chat}>Let's talk</Button>
 				</Scroll>
-				<Button icon={dwn} href={CV}>
+				<Button icon={dwn} href={CV} >
 					Resume
 				</Button>
 			</section>
