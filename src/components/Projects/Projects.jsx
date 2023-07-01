@@ -2,7 +2,7 @@ import React from 'react';
 import gitLogo from '../../assets/logos/github.png';
 import screenLogo from '../../assets/logos/screen.svg';
 import pizzaria from '../../assets/portifolioImages/pizza.png';
-import portfolio from '../../assets/portifolioImages/port.png';
+import kabab from '../../assets/portifolioImages/kebab.png';
 import djSite from '../../assets/portifolioImages/dj.png';
 import vetClinic from '../../assets/portifolioImages/vet.png';
 import hatStore from '../../assets/portifolioImages/hatStore.png';
@@ -139,34 +139,34 @@ const Projects = () => {
 			<InViewSection>
 				<div className="projectContent">
 					<div className="projectImage">
-						<img src={golePage} alt="" />
+						<img src={kabab} alt="" />
 					</div>
 
 					<div className="projectInfo">
-						<h3>About: "Cocktails Website"</h3>
+						<h3>About: "GreekBite Restaurant"</h3>
 						<p>
-							The project is a responsive Cocktails website where you can find
-							your favorite cocktail from over 600 cocktails. On this website I
-							improved my knowledge about Rest API consumption by simulating
-							several requests directly to an external API.
+						Greek Bites is an online menu for a local business. It features a home page, about, menu, special offers, location and contact. The owner can easily maintain the business menu updated by adding, removing or editing the menu through a CMS (Sanity.io), which include change of names, prices, descriptions, ingredients and more. There is also static menu featuring all the options from the restaurant.
+
+						<p className='guest'>This project was made in partnership with my friend <a target='_blank' href="https://www.alanceratti.com/">Alan Ceratti</a>.</p>
 						</p>
 						<h3>Technology:</h3>
-						<p>ReactJS | SASS | Axios | JavaScript | Framer Motion</p>
+						<p>HTML5 | Tailwind | JavaScript | Next.js 13</p>
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
-							<Button
-								icon={screenLogo}
-								href={'https://gole-4agimhppi-jttrevis.vercel.app/'}
-							>
+							<Button icon={screenLogo} href={'https://kebab2.vercel.app/'}>
 								Demo
 							</Button>
-							<Button icon={gitLogo} href={'https://github.com/jttrevis/gole'}>
+							<Button
+								icon={gitLogo}
+								href={'https://github.com/alanrceratti/kebab2'}
+							>
 								Github
 							</Button>
 						</div>
 					</div>
 				</div>
 			</InViewSection>
+
 			<InViewSection2>
 				<div className="projectContent">
 					<div className="projectInfo">
@@ -198,32 +198,35 @@ const Projects = () => {
 			<InViewSection>
 				<div className="projectContent">
 					<div className="projectImage">
-						<img src={portfolio} alt="" />
+						<img src={golePage} alt="" />
 					</div>
 
 					<div className="projectInfo">
-						<h3>About: "My Portfolio"</h3>
+						<h3>About: "Cocktails Website"</h3>
 						<p>
-							My portfolio where you can find out more about me and see my
-							projects that I'm working on and projects that I've completed.
+							The project is a responsive Cocktails website where you can find
+							your favorite cocktail from over 600 cocktails. On this website I
+							improved my knowledge about Rest API consumption by simulating
+							several requests directly to an external API.
 						</p>
 						<h3>Technology:</h3>
-						<p>ReactJS | SASS | HTML | JavaScript | Framer Motion</p>
+						<p>ReactJS | SASS | Axios | JavaScript | Framer Motion</p>
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
-							<Button icon={screenLogo} href={'https://juniortrevisol.com'}>
+							<Button
+								icon={screenLogo}
+								href={'https://gole-4agimhppi-jttrevis.vercel.app/'}
+							>
 								Demo
 							</Button>
-							<Button
-								icon={gitLogo}
-								href={'https://github.com/jttrevis/portifolio'}
-							>
+							<Button icon={gitLogo} href={'https://github.com/jttrevis/gole'}>
 								Github
 							</Button>
 						</div>
 					</div>
 				</div>
 			</InViewSection>
+
 		</div>
 	);
 };

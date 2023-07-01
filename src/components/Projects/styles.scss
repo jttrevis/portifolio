@@ -62,6 +62,16 @@
   width: 100%;
   max-width: 400px;
   gap: 1rem;
+
+  .guest{
+    margin-top: 1rem;
+
+    a{
+      color: rgb(111, 0, 255);
+      font-weight: bold;
+      font-size: 1.09rem;
+    }
+  }
 }
 
 .bgProject{

@@ -1,9 +1,9 @@
 import React from 'react';
 import photo from '../../assets/euFigma.png';
 import './styles.scss';
-import { Social } from './../Social/index';
+import { Social } from '../Social/index';
 import { Link as Scroll } from 'react-scroll';
-import { InViewSection } from './../InViewSection/index';
+import { InViewSection } from '../InViewSection/index';
 
 
 export const About = () => {
