@@ -7,6 +7,7 @@ import chat from '../../assets/logos/chat.svg';
 import './styles.scss';
 
 import Button from './../Button/Button';
+import { Chats, FileArrowDown } from '@phosphor-icons/react';
 
 export const Header = () => {
 	
@@ -21,10 +22,14 @@ export const Header = () => {
 			</section>
 			<section className="header-buttons">
 				<Scroll spy={true} smooth={true} duration={600} to="contact">
-					<Button icon={chat}>Let's talk</Button>
+					<Button >Let's talk
+					<Chats size={25} />
+					
+					</Button>
 				</Scroll>
-				<Button icon={dwn} href={CV} >
+				<Button  href={CV} >
 					Resume
+					<FileArrowDown size={25} />
 				</Button>
 			</section>
 		</header>

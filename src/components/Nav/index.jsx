@@ -6,20 +6,23 @@ import projectLogo from '../../assets/logos/project.svg';
 import contactLogo from '../../assets/logos/contact.svg';
 
 import { Link as Scroll } from 'react-scroll';
+import { AddressBook, Barbell, House, Info } from '@phosphor-icons/react';
 export const Nav = () => {
 	return (
 		<nav className="nav">
 			<Scroll spy={true} smooth={true} duration={600} to="header">
-				<img src={homeLogo} alt="" />
+				
+				<House size={25} />
 			</Scroll>
 			<Scroll spy={true} smooth={true} duration={600} to="about">
-				<img src={aboutLogo} alt="" />
+				
+				<Info size={25} />
 			</Scroll>
 			<Scroll spy={true} smooth={true} duration={600} to="projects">
-				<img src={projectLogo} alt="" />
+			<Barbell size={25} />
 			</Scroll>
 			<Scroll spy={true} smooth={true} duration={600} to="contact">
-				<img src={contactLogo} alt="" />
+			<AddressBook size={25} />
 			</Scroll>
 		</nav>
 	);

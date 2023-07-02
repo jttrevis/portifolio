@@ -10,12 +10,13 @@ import golePage from '../../assets/portifolioImages/drink.png';
 import './styles.scss';
 import Button from '../Button/Button';
 import { InViewSection, InViewSection2 } from '../InViewSection';
+import { Browsers, GithubLogo } from '@phosphor-icons/react';
 const Projects = () => {
 	return (
 		<div className="projectContainer">
 			<div id="projects" className="title">
 				<h5>My Recents Work</h5>
-				<h1>Portfolio</h1>
+				<h1>Projects</h1>
 			</div>
 			<InViewSection2>
 				<div className="projectContent">
@@ -52,14 +53,17 @@ const Projects = () => {
 						<p>React | Sass | Framer Motion | React Bootstrap | HTML </p>
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
-							<Button icon={screenLogo} href={'https://hat-store.vercel.app/'}>
+							<Button href={'https://hat-store.vercel.app/'}>
 								Demo
+								<Browsers size={25} />
+
 							</Button>
 							<Button
-								icon={gitLogo}
+							
 								href={'https://github.com/jttrevis/HatMart'}
 							>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>
@@ -87,16 +91,19 @@ const Projects = () => {
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
 							<Button
-								icon={screenLogo}
+								
 								href={'https://pizzaria-trevisol.vercel.app/'}
 							>
 								Demo
+								<Browsers size={25} />
+
 							</Button>
 							<Button
-								icon={gitLogo}
+								
 								href={'https://github.com/jttrevis/pizzaria'}
 							>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>
@@ -118,16 +125,19 @@ const Projects = () => {
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
 							<Button
-								icon={screenLogo}
+								
 								href={'https://veterinary-ruby.vercel.app/'}
 							>
 								Demo
+								<Browsers size={25} />
+
 							</Button>
 							<Button
-								icon={gitLogo}
+								
 								href={'https://github.com/jttrevis/PatunfasVet'}
 							>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>
@@ -153,14 +163,17 @@ const Projects = () => {
 						<p>HTML5 | Tailwind | JavaScript | Next.js 13</p>
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
-							<Button icon={screenLogo} href={'https://kebab2.vercel.app/'}>
+							<Button  href={'https://kebab2.vercel.app/'}>
 								Demo
+								<Browsers size={25} />
+
 							</Button>
 							<Button
-								icon={gitLogo}
+								
 								href={'https://github.com/alanrceratti/kebab2'}
 							>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>
@@ -179,14 +192,17 @@ const Projects = () => {
 						<p>HTML | SASS | EmailJs | JavaScript | ReactJS</p>
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
-							<Button icon={screenLogo} href={'https://djbeto.vercel.app/'}>
+							<Button href={'https://djbeto.vercel.app/'}>
 								Demo
+								<Browsers size={25} />
+
 							</Button>
 							<Button
-								icon={gitLogo}
+							
 								href={'https://github.com/jttrevis/discoteca'}
 							>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>
@@ -214,13 +230,15 @@ const Projects = () => {
 						<p>Deploy: Vercel</p>
 						<div className="buttons">
 							<Button
-								icon={screenLogo}
+								
 								href={'https://gole-4agimhppi-jttrevis.vercel.app/'}
 							>
 								Demo
+								<Browsers size={25} />
 							</Button>
-							<Button icon={gitLogo} href={'https://github.com/jttrevis/gole'}>
+							<Button  href={'https://github.com/jttrevis/gole'}>
 								Github
+								<GithubLogo size={25} />
 							</Button>
 						</div>
 					</div>

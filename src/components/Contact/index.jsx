@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 import faceLogo from '../../assets/logos/messe.svg';
 import emailLogo from '../../assets/logos/email.svg';
-import sendLogo from '../../assets/logos/send1.svg';
 import whatsLogo from '../../assets/logos/whats.svg';
 
 import { toast } from 'react-hot-toast';
 
 import './styles.scss';
 import emailjs from '@emailjs/browser';
+import { EnvelopeSimple } from '@phosphor-icons/react';
 export const Contact = () => {
 	const [email, setEmail] = useState('');
 	const [name, setName] = useState('');
@@ -118,7 +118,8 @@ export const Contact = () => {
 
 				<button type="submit" value="send">
 					Send
-					<img className="logo" src={sendLogo} alt="" />
+					<EnvelopeSimple size={20} />
+					
 				</button>
 			</form>
 		</div>
