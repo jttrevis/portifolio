@@ -1,8 +1,7 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf';
+
 import { Link as Scroll } from 'react-scroll';
-import dwn from '../../assets/logos/dwn.svg';
-import chat from '../../assets/logos/chat.svg';
+
 
 import './styles.scss';
 
@@ -27,7 +26,7 @@ export const Header = () => {
 					
 					</Button>
 				</Scroll>
-				<Button  href={CV} >
+				<Button  href={'https://docs.google.com/document/d/1qqdDRTsNdbk5tgQZcgdL2bSLgCWvQsrtMaltn9w7V2w/edit'} >
 					Resume
 					<FileArrowDown size={25} />
 				</Button>
